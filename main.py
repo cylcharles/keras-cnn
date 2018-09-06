@@ -72,7 +72,7 @@ dataGenerator = ImageDataGenerator()
 dataGenerator.fit(x)
 data_generator = dataGenerator.flow(x, y, batch_size, True) #generator函數，用來生成批處理數據
 
-model = Net_model(nb_classes=nb_classes, lr=0.0001) #加載網絡模型
+model = Net_model(nb_classes = nb_classes, lr = 0.0001) #加載網絡模型
 
 history = model.fit_generator(data_generator, epochs = nb_epoch, steps_per_epoch = nb_step, shuffle = True) #訓練網絡
 
