@@ -1,4 +1,6 @@
 # Keras-cnn : Using Convolutional Neural Networks
+使用Keras實作Convolutional Neural Networks
+
 ## Using CNN to classify "Table" and "Chair" images.
 * 室內桌子和椅子各200張
 * 建立兩層卷積層
